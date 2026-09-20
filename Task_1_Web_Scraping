@@ -1,0 +1,28 @@
+# CodeAlpha Task 1 - Web Scraping
+
+## Objective
+Collect book information from a public website using Python web scraping.
+
+## Website
+Books to Scrape: https://books.toscrape.com/
+
+## Tools Used
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+
+## Data Collected
+- Book Title
+- Price
+- Rating
+- Availability
+
+## Output
+The scraped data is saved in `books_data.csv`.
+
+## How to Run
+
+```bash
+pip install requests beautifulsoup4 pandas
+python web_scraping.py
